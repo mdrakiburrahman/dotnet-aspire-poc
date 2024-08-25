@@ -1,0 +1,13 @@
+namespace: apiservice-demo
+
+resources:
+- cache
+- apiservice
+- webfrontend
+- namespace.yaml
+- dashboard.yaml
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+
